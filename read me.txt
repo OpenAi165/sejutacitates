@@ -1,0 +1,16 @@
+admin credential in mongodb 
+username= ADMIN
+password = ADMIN
+link for mongodb = mongodb+srv://ADMIN:ADMIN@cluster0.7wanw.mongodb.net/test?retryWrites=true&w=majority
+however , mongodb has ip whitelist system that i have disabled so you guys can check 
+
+the APIs are created with all the data as params for testing purposes without insomnia. 
+of course if this is a real APIs in the real website all that will be in body
+for reference i have included commented syntax for if the parameters were not shown in url 
+
+for the token i assume that a simple "role" in body when calling specific API is enough for this test however i can also use JWT .
+
+the Swagger documentation is in .../api-docs
+
+im sorry for no screenshot for docker and kubernetes because apparently they are not connected anymore and docker is not available 
+for windows 8 anymore . 
